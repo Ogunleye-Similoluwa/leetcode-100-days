@@ -28,4 +28,4 @@ def twoSum(nums, target):
 
 
 print(countOdds(8, 17))
-print(twoSum([1, 5, 7, 3, 1, 8], 8))
+print(twoSum([1, 5, 7, 3, 1, 8], 8  ))

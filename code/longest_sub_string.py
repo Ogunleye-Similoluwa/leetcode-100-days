@@ -10,4 +10,3 @@ def lengthOfLongestSubstring(s):
 
 
 print(lengthOfLongestSubstring("abcabcbb"))
-print(lengthOfLongestSubstring(""))
