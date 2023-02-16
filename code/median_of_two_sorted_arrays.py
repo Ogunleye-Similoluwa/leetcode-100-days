@@ -1,4 +1,5 @@
-def findMedianSortedArrays(nums1, nums2):
+def findMedianSortedArrays(nums1, m, nums2, n):
+
     another_list = (nums1 + nums2)
     for item in range(len(another_list) - 1):
         for num in range(0, len(another_list) - item - 1):
@@ -15,4 +16,3 @@ def findMedianSortedArrays(nums1, nums2):
 
 
 print(findMedianSortedArrays([1, 3], [2, 4]))
-
