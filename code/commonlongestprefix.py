@@ -6,7 +6,7 @@ def longestCommonPrefix(strs):
         for letter in letters:
             if letter in strs[count]:
                 if len(strs[second_count]) == letter:
-                letters_append += letter
+                    letters_append += letter
 
         return letters_append
 
